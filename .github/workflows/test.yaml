@@ -9,5 +9,5 @@ jobs:
     - uses: google-github-actions/upload-cloud-storage@main
       with:
         credentials: ${{ secrets.TEST }}
-        path: ../test
+        path: test
         destination: test
